@@ -42,7 +42,7 @@ const myColors = colors.map(function (text) {
 console.log(myColors)
 
 
-//Some
+//some
 Array.prototype.some = function (sm) {
   const someData = []; 
 
@@ -84,7 +84,7 @@ const myEveryArray = everyArray.every(function (element) {
 
 console.log(myEveryArray)
 
-//Reduce
+//reduce
 Array.prototype.reduce = function() {
     let total = 0;
     
