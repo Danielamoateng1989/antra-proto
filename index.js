@@ -16,7 +16,6 @@ const data = arrayOfNumbers.filter(function (num) {
   if (num < 60 ) return num;
 });
 
-console.log(data); 
 
 
 //map
@@ -39,8 +38,6 @@ const myColors = colors.map(function (text) {
 
 });
 
-console.log(myColors)
-
 
 //some
 Array.prototype.some = function (sm) {
@@ -59,12 +56,11 @@ const mySomeNumbers = array.some(function (element) {
   if (element % 2 === 0 ) return element;
 });
 
-console.log(mySomeNumbers); 
+
 
 
 
 //every
-
 Array.prototype.every = function (ev) {
   const everyData = []; 
 
@@ -95,4 +91,3 @@ Array.prototype.reduce = function() {
 }
 const reduceArr = [4, 5, 6, 7]
 const sum = reduceArr.reduce(reduceArr)
-console.log(sum)
